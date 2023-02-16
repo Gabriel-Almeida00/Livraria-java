@@ -6,7 +6,7 @@ public class ComparandoReferencias {
         autor.setEmail("rodrigo.turini@caelum.com.br");
         autor.setCpf("123.456.789.10");
 
-        Livro	livro	=	new	Livro(autor);
+        Livro	livro	=	new LivroFisico(autor);
         livro.setAutor(autor);
 
         livro.getAutor().setNome("Guilherme	Silveira");

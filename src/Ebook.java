@@ -7,10 +7,13 @@ public class Ebook extends Livro {
     }
     @Override
     public boolean aplicaDescontoDe(double porcentagem){
-        if (porcentagem > 0.15){
+        if(porcentagem > 0.15){
             return false;
         }
-        return super.aplicaDescontoDe(porcentagem);
+        double desconto = getValor() * porcentagem;
+        setValor(getValor() - desconto);
+        System.out.println("Aplicando desconto no Ebook");
+        return true;
     }
 
     public String getWaterMark() {
