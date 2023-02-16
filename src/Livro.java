@@ -8,10 +8,12 @@ public class Livro {
 
     void mostrarDetalhes(){
         System.out.println("Mostrando Detalhes do livro");
-        System.out.println("Nome: "+nome);
-        System.out.println("Descricao: "+descricao);
-        System.out.println("Valor: "+valor);
-        System.out.println("ISBN: "+isbn);
+        System.out.println("Nome: " + nome);
+        System.out.println("Descricao: " + descricao);
+        System.out.println("Valor: " + valor);
+        System.out.println("ISBN: " + isbn);
+        autor.mostrarDetalhes();
         System.out.println("--");
+
     }
 }

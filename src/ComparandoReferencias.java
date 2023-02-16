@@ -8,7 +8,7 @@ public class ComparandoReferencias {
 
         Livro	livro	=	new	Livro();
         livro.autor	=	autor;
-        
+
         livro.autor.nome	=	"Guilherme	Silveira";
         System.out.println(autor.nome);
 
