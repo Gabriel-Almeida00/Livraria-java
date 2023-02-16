@@ -5,13 +5,17 @@ public class Livro {
     private  double valor;
     private String isbn;
     private Autor autor;
-    
+
     public Livro(Autor autor){
         this();
         this.autor = autor;
     }
     public Livro(){
         this.isbn = "000-00-00000-00-0";
+    }
+
+    public double getTaxaImpressao(){
+        return this.getValor() * 0.05;
     }
 
     void mostrarDetalhes(){
