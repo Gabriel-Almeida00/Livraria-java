@@ -6,6 +6,10 @@ public class Livro {
     String isbn;
     Autor autor;
 
+    public Livro(){
+        System.out.println("Novo Livro criado");
+    }
+
     void mostrarDetalhes(){
         System.out.println("Mostrando Detalhes do livro");
         System.out.println("Nome: " + nome);
