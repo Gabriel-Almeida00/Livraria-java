@@ -27,6 +27,7 @@ public class CadastroDeLivros {
         outroLivro.isbn = "978-85-66250-22-0";
         outroLivro.autor = outroAutor;
 
+        outroLivro.aplicaDescontoDe(0.1);
         outroLivro.mostrarDetalhes();
 
     }
