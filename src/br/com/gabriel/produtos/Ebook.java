@@ -3,7 +3,6 @@ package br.com.gabriel.produtos;
 import br.com.gabriel.livraria.Autor;
 
 public class Ebook extends Livro implements Promocional {
-
     private String WaterMark;
 
     public Ebook(Autor autor){
@@ -27,5 +26,10 @@ public class Ebook extends Livro implements Promocional {
         setValor(getValor() - desconto);
         System.out.println("Aplicando desconto no br.com.Ebook");
         return true;
+    }
+
+    @Override
+    public String toString(){
+        return "Eu sou um Ebook";
     }
 }

@@ -45,6 +45,7 @@ public class RegistroDeVendas {
             }
         }
         System.out.println("Fui	executado!");
+        System.out.println(ebook);
 
     }
 }

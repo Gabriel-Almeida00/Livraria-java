@@ -12,6 +12,13 @@ public class Autor {
         System.out.println("CPF: " + cpf);
     }
 
+    @Override
+    public boolean equals(Object obj){
+        if(!(obj instanceof Autor)) return false;
+        Autor outro = (Autor) obj;
+        return this.nome.equals(outro.nome);
+    }
+
     public String getNome() {
         return nome;
     }
