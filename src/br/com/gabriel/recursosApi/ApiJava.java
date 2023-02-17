@@ -2,6 +2,8 @@ package br.com.gabriel.recursosApi;
 
 import br.com.gabriel.livraria.Autor;
 
+import java.util.Random;
+
 public class ApiJava {
     public static void main(String[] args) {
 
@@ -42,6 +44,9 @@ public class ApiJava {
         int	parseInt2	=	Integer.parseInt("ABC");//resultara em erro
 
         //java.lang
+        Random	random	=	new Random();
+        System.out.println(random.nextInt(10));
+
         long	round	=	Math.round(3.99);
         long	max	=	Math.max(100,	10);
         int	min	=	Math.min(100,	10);
