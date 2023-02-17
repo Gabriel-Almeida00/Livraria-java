@@ -11,12 +11,14 @@ public abstract class Livro implements Produto {
     private Autor autor;
 
     public Livro(Autor autor){
-        this();
+        if	(autor == null)	{
+            throw new RuntimeException
+                    ("O Autor do livro não pode ser nulo");
+        }
         this.autor = autor;
-    }
-    public Livro(){
         this.isbn = "000-00-00000-00-0";
     }
+
 
     public void mostrarDetalhes(){
         System.out.println("Mostrando Detalhes do livro");
