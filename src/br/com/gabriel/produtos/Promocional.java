@@ -1,3 +1,5 @@
+package br.com.gabriel.produtos;
+
 @FunctionalInterface
 public interface Promocional {
 

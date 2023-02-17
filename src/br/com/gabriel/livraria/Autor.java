@@ -1,10 +1,12 @@
+package br.com.gabriel.livraria;
+
 public class Autor {
     private String nome;
     private String email;
     private String cpf;
 
-    void mostrarDetalhes(){
-        System.out.println("Mostrando Detalhes do Autor");
+    public void mostrarDetalhes(){
+        System.out.println("Mostrando Detalhes do Livraria.Autor");
         System.out.println("Nome: " + nome);
         System.out.println("Email: " + email);
         System.out.println("CPF: " + cpf);

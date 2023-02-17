@@ -1,3 +1,7 @@
+package br.com.gabriel;
+
+import br.com.gabriel.produtos.Produto;
+
 public class CarrinhoDeCompras {
     private double total;
 

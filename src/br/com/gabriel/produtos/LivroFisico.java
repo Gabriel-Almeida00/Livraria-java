@@ -1,4 +1,10 @@
-public class LivroFisico extends Livro implements Promocional  {
+package br.com.gabriel.produtos;
+
+import br.com.gabriel.livraria.Autor;
+import br.com.gabriel.produtos.Livro;
+import br.com.gabriel.produtos.Promocional;
+
+public class LivroFisico extends Livro implements Promocional {
 
     public LivroFisico(Autor autor){
         super(autor);

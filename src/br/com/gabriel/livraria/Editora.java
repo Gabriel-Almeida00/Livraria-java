@@ -1,3 +1,5 @@
+package br.com.gabriel.livraria;
+
 public class Editora {
     public String nomeFantasia;
     public String razaoSocial;

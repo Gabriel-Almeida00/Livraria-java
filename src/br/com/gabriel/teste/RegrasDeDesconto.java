@@ -1,3 +1,9 @@
+package br.com.gabriel.teste;
+
+import br.com.gabriel.produtos.Ebook;
+import br.com.gabriel.produtos.LivroFisico;
+import br.com.gabriel.livraria.Autor;
+
 public class RegrasDeDesconto {
     public static void main(String[] args) {
 

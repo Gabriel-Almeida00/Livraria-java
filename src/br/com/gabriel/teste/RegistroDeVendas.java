@@ -1,3 +1,10 @@
+package br.com.gabriel.teste;
+
+import br.com.gabriel.CarrinhoDeCompras;
+import br.com.gabriel.produtos.Ebook;
+import br.com.gabriel.produtos.LivroFisico;
+import br.com.gabriel.livraria.Autor;
+
 public class RegistroDeVendas {
 
     public static void main(String[] args) {

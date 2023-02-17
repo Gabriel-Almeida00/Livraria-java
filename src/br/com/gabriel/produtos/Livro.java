@@ -1,3 +1,7 @@
+package br.com.gabriel.produtos;
+
+import br.com.gabriel.livraria.Autor;
+
 public abstract class Livro implements Produto {
 
     private String nome;
@@ -14,7 +18,7 @@ public abstract class Livro implements Produto {
         this.isbn = "000-00-00000-00-0";
     }
 
-    void mostrarDetalhes(){
+    public void mostrarDetalhes(){
         System.out.println("Mostrando Detalhes do livro");
         System.out.println("Nome: " + nome);
         System.out.println("Descricao: " + descricao);

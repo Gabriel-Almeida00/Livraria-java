@@ -1,3 +1,9 @@
+package br.com.gabriel.produtos;
+
+import br.com.gabriel.livraria.Editora;
+import br.com.gabriel.produtos.Produto;
+import br.com.gabriel.produtos.Promocional;
+
 public class Revista implements Produto, Promocional {
     private String nome;
     private String descricao;

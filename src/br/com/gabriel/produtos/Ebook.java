@@ -1,3 +1,7 @@
+package br.com.gabriel.produtos;
+
+import br.com.gabriel.livraria.Autor;
+
 public class Ebook extends Livro implements Promocional {
 
     private String WaterMark;
@@ -5,8 +9,6 @@ public class Ebook extends Livro implements Promocional {
     public Ebook(Autor autor){
         super(autor);
     }
-
-
 
     public String getWaterMark() {
         return WaterMark;
@@ -23,7 +25,7 @@ public class Ebook extends Livro implements Promocional {
         }
         double desconto = getValor() * porcentagem;
         setValor(getValor() - desconto);
-        System.out.println("Aplicando desconto no Ebook");
+        System.out.println("Aplicando desconto no br.com.Ebook");
         return true;
     }
 }
